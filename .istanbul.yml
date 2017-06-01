@@ -1,4 +1,0 @@
-
-instrumentation:
-  excludes:
-   - assets/js/details.polyfill.js
