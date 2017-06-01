@@ -60,6 +60,7 @@
     "express-partial-templates": "^0.1.0",
     "express-session": "^1.12.1",
     "file-saver": "^1.3.3",
+    "govuk-elements": "github:robinknipe/govuk_elements",
     "hof": "^8.0.0",
     "hogan-express-strict": "^0.5.4",
     "hogan.js": "^3.0.2",
