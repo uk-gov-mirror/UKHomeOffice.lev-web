@@ -1,6 +1,6 @@
 'use strict';
 
-require('./details.polyfill')();
+require('govuk-elements/assets/javascripts/govuk/details.polyfill');
 var saveAs = require('file-saver').saveAs;
 
 function getAuditData() {

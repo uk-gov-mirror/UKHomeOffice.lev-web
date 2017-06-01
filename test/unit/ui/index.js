@@ -18,7 +18,7 @@ describe('auidt report UI', () => {
     contentType: 'text/html'
   });
   let index = proxyquire('../../../assets/js/index.js', {
-    './details.polyfill': sinon.spy(),
+    'govuk_elements/assets/javascripts/govuk/details.polyfill': {},
     'file-saver': {
       saveAs: saver
     }
